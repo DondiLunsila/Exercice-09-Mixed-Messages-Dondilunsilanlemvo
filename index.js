@@ -19,3 +19,14 @@ const authors = [
     "ambition",
     "courage"
   ];
+  function generateMessage() {
+    const randomQuoteIndex = Math.floor(Math.random() * quotes.length);
+    const randomAuthorIndex = Math.floor(Math.random() * authors.length);
+    const randomThemeIndex = Math.floor(Math.random() * themes.length);
+  
+    const randomQuote = quotes[randomQuoteIndex];
+    const randomAuthor = authors[randomAuthorIndex];
+    const randomTheme = themes[randomThemeIndex];
+  
+    return `${randomQuote} ${randomAuthor}\nTheme: ${randomTheme}`;
+  }
