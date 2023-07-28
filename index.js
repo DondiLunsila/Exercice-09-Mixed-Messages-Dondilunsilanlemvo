@@ -5,3 +5,11 @@ const quotes = [
   "You are capable of amazing things",
   "Embrace the journey, not just the destination"
 ];
+const authors = [
+    "- Unknown",
+    "- Confucius",
+    "- Nelson Mandela",
+    "- Eleanor Roosevelt",
+    "- Ralph Waldo Emerson"
+  ];
+  
