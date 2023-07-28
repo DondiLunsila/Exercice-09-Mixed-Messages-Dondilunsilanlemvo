@@ -12,4 +12,10 @@ const authors = [
     "- Eleanor Roosevelt",
     "- Ralph Waldo Emerson"
   ];
-  
+  const themes = [
+    "perseverance",
+    "self-improvement",
+    "positive thinking",
+    "ambition",
+    "courage"
+  ];
